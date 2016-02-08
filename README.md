@@ -1,3 +1,7 @@
+sensniff-freaklabs
+========
+This is a fork of the original sensniff software by g-oikonomou. The main changes are just some default parameters to make it easier to use with freaklabs 802.15.4 boards. There's also plans to add more commands in the future beyond get/set channel.  
+
 sensniff
 ========
 
