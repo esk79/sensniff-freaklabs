@@ -55,7 +55,7 @@ __version__ = '0.1 alpha'
 #####################################
 defaults = {
     'device': '/dev/ttyUSB0',
-    'baud_rate': 115200,
+    'baud_rate': 230400,
     'out_file': 'sensniff.hexdump',
     'out_fifo': '/tmp/sensniff',
     'out_pcap': 'sensniff.pcap',
@@ -74,7 +74,7 @@ VERSION_MINOR = 4
 THISZONE = 0
 SIGFIGS = 0
 SNAPLEN = 0xFFFF
-NETWORK = LINKTYPE_IEEE802_15_4
+NETWORK = LINKTYPE_IEEE802_15_4_NOFCS
 
 PCAP_GLOBAL_HDR_FMT = '<LHHlLLL'
 PCAP_FRAME_HDR_FMT = '<LLLL'
