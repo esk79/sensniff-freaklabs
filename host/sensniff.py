@@ -534,7 +534,7 @@ if __name__ == '__main__':
                         logger.info('User requested shutdown')
                         dump_stats()
                         sys.exit(0)
-                    elif int(cmd) in range(11, 27):
+                    elif int(cmd) in range(0, 10):
                         in_handler.set_channel(int(cmd))
                     else:
                         raise ValueError
